@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>B4-Layout Session02</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            header{
+    
+                border-left: 2px solid;
+                border-top: 2px solid;
+                border-right: 2px solid;
+                height: 10%;
+                justify-content: center;
+                
+                
+            }
+            .tex1{
+                text-align: center;
+                padding-top: 5px;
+            }
+            nav{
+                border: 2px solid;
+                height: 10%;
+            }
+            section{
+                border-left: 2px solid;
+                border-right: 2px solid;
+                border-bottom: 2px solid;
+                height: 10%;
+            }
+            .hop_cha{
+                display: flex;
+                /* border: 2px solid black; */
+                height: 70%
+            }
+            .hop_conc_c{
+                border: 2px solid black;
+                flex: 0.5;
+            }
+            .con_gai{
+                border: 2px solid black;
+                flex: 0.5;
+            }
+            .hop_qc{
+                border: 2px solid;
+                height: 30%;
+            }
+            .hop_section{
+                border-bottom : 2px solid;
+                justify-content: center;
+            }
+            .hop_article{
+                /* border: 2px solid; */
+            }
+            .c_section{
+                text-align: center;
+                padding: 82px;
+            }
+            .c_article{
+                text-align: center;
+                padding: 82px;
+            }
+            .c_nho{
+                text-align: center;
+                padding: 189px;
+            }
+            .hp_lo{
+                text-align: center;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="div1">
+                <p class="tex1">
+                    header
+                </p>
+            </div>
+        </header>
+        <nav>
+            <div class="div2">
+                <p class="tex1">Nav</p>
+            </div>
+        </nav>
+        <div class="hop_cha" >
+            <div class="hop_conc_c">
+                <div class="hop_section">
+                    <p class="c_section" >section</p>
+                </div>
+                <div class="hop_article">
+                    <p class="c_article">article</p>
+                </div>
+            </div>
+            <div class="con_gai">
+                <p class="c_nho">
+                aside
+                </p>
+            </div>
+        </div>
+        <footer class="hop_qc">
+            <p class="hp_lo">footer</p>
+        </footer>
+        
+    </body>
+</html>
